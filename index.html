@@ -613,13 +613,12 @@ with gr.Blocks(css=css, title="PneumoAI — Chest X-Ray Diagnosis") as demo:
             orig_out = gr.Image(
                 label="🩻 Original X-Ray",
                 height=240,
-                show_download_button=False
+               
             )
         with gr.Column():
             cam_out = gr.Image(
                 label="🔍 Grad-CAM — AI Focus Area",
                 height=240,
-                show_download_button=True
             )
 
     # Footer
