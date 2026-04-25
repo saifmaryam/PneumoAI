@@ -574,7 +574,7 @@ footer_html = """
 # ════════════════════════════════════════════════
 # GRADIO APP
 # ════════════════════════════════════════════════
-with gr.Blocks(css=css, title="PneumoAI — Chest X-Ray Diagnosis") as demo:
+with gr.Blocks(title="PneumoAI — Chest X-Ray Diagnosis") as demo:
 
     # Header
     gr.HTML(header_html)
@@ -631,4 +631,4 @@ with gr.Blocks(css=css, title="PneumoAI — Chest X-Ray Diagnosis") as demo:
         outputs=[result_html, cam_out, orig_out, disclaimer_html]
     )
 
-demo.launch()
+demo.launch(css=css)
