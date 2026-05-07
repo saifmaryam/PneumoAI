@@ -13,20 +13,6 @@
 - Beautiful dark-themed UI
 - Full-stack: FastAPI backend + HTML/CSS/JS frontend
 
-## 🏗️ Project Structure
-```
-chest-xray-xai/
-├── backend/
-│   ├── main.py           ← FastAPI server
-│   └── requirements.txt
-├── frontend/
-│   └── index.html        ← UI
-├── model/
-│   ├── train_model.py    ← Training script (run in Colab)
-│   └── best_model.pth    ← Trained weights (after training)
-└── README.md
-```
-
 ## 🚀 How to Run
 
 ### Step 1 — Train Model (Google Colab)
